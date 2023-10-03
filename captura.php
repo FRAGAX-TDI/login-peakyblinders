@@ -2,11 +2,11 @@
 // Verificando se a requisição é POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
+    $dados=file_get_contents("php://input");
     // Validando se os dados não estão vazios
-    if (!empty($_POST)) {
+    if (!empty($dados)) {
         // Criando uma string com os dados recebidos
-        $dados = print_r($_POST, true);
-
+        
         // Adicionando os dados ao arquivo (modo de anexação)
         file_put_contents('dados.txt', $dados.PHP_EOL, FILE_APPEND);
 
