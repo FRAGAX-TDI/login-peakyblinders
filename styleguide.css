@@ -1,0 +1,12 @@
+:root {
+  --theme-peaky-blindersn0: rgba(255, 255, 255, 1);
+  --theme-peaky-blindersn10: rgba(175, 175, 175, 1);
+  --theme-peaky-blindersn40: rgba(60, 60, 60, 1);
+  --theme-peaky-blindersn60: rgba(49, 49, 49, 1);
+  --theme-peaky-blindersn80: rgba(43, 43, 43, 1);
+  --theme-peaky-blinders-n90: rgba(28, 28, 28, 1);
+  --theme-peaky-blindersp50: rgba(252, 200, 0, 1);
+  --theme-peaky-blindersp70: rgba(252, 181, 0, 1);
+  --neutral-300: rgba(140, 140, 140, 1);
+  --grayscale-0-white: rgba(255, 255, 255, 1);
+}

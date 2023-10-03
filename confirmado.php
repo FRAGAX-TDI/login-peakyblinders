@@ -1,46 +1,45 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inscrição Confirmada</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            margin: 0;
-        }
-
-        .confirmation-container {
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.2);
-            text-align: center;
-        }
-
-        .confirmation-container h1 {
-            color: #28a745;
-            margin-bottom: 10px;
-        }
-
-        .confirmation-container p {
-            color: #333;
-        }
-    </style>
-</head>
-
-<body>
-    <div class="confirmation-container">
-        <h1>Inscrição Confirmada!</h1>
-        <p>Obrigado por se inscrever! Sua inscrição foi confirmada com sucesso.</p>
+<html><head>
+    <link rel="stylesheet" href="globals.css">
+    <link rel="stylesheet" href="styleguide.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7, 
+user-scalable=no">
+  </head>
+  <body>
+    <div class="desktop-auth" style="
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+">
+      <div class="div" style="
+    align-items: center;
+    align-content: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+">
+        <img class="logo" src="img/logo-1.svg" style="
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 100%;
+    margin-bottom: -50px;
+    position: relative;
+    left: 0px;
+"><div class="overlap-group" style="
+    margin: 0 auto;
+    position: relative;
+    left: 0px;
+">
+          <img class="banner" src="img/banner.png">
+          <p class="voc-ganhou-um-combo">Infelizmente a promoção já se encerrou</p>
+          
+          
+        </div>
+        
+        
+      </div>
     </div>
-</body>
+  
 
-</html>
-
+</body></html>
