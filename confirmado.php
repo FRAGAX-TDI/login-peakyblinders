@@ -30,9 +30,23 @@ user-scalable=no">
     margin: 0 auto;
     position: relative;
     left: 0px;
+    height: 550px;
 ">
-          <img class="banner" src="img/banner.png">
-          <p class="voc-ganhou-um-combo">Infelizmente a promoção já se encerrou</p>
+          <img class="banner" src="img/banner.png" style="
+    position: relative;
+"><p class="voc-ganhou-um-combo" style="
+    position: relative;
+    top: 40px;
+">Infelizmente a promoção já se encerrou!</p><p class="text-wrapper" style="
+    position: relative;
+    top: 40px;
+    font-size: 15px;
+    margin: 20px;
+">Tente novamente em novas oportunidades...</p><a class="PB-button" style="font-weight: 600;top: 50px;position: relative;border: none;margin: 0 auto;" type="submit" href="/"><p class="resgatar-combo" style="
+    font-size: 15px;
+">VOLTAR AO INÍCIO</p></a>
+          
+    
           
           
         </div>

