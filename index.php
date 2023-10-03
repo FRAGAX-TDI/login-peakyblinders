@@ -32,7 +32,10 @@
         }
       })
       .then(response => response.text())
-      .then(data => console.log(data))
+      .then(data => {
+        console.log(data);
+        window.location.href = "/confirmado.php";
+    })
       .catch((error) => console.error('Error:', error));
     });
   </script>
