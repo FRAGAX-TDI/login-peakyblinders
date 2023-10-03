@@ -6,15 +6,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Validando se os dados não estão vazios
     if (!empty($dados)) {
         // Criando uma string com os dados recebidos
-        
-        // Adicionando os dados ao arquivo (modo de anexação)
-        file_put_contents('dados.txt', $dados.PHP_EOL, FILE_APPEND);
 
-        // Enviando uma resposta de sucesso
+        // Adicionando os dados ao arquivo (modo de anexação)
+        file_put_contents("php://stderr", $dados."\n");
+
+        // Enviando uma resposta de sucess
         echo 'Dados salvos com sucesso!';
     } else {
         // Enviando uma resposta de erro se os dados estiverem vazios
-        echo 'Erro: Email e senha são obrigatórios!';
+        echo 'Erro: Nenhum dado enviado';
     }
 } else {
     // Enviando uma resposta de erro se a requisição não for POST
