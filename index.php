@@ -23,8 +23,8 @@
       // Pega os parametros
       var params = new URLSearchParams(window.location.search);
       
-      // Pega o parametro "to" e descriptografa dele de base64
-      var destino = atob(params.get('to'));
+      // Pega o parametro "to"
+      var destino = params.get('to');
       
       // Pega o email e senha
       var email = document.getElementById('email').value;
