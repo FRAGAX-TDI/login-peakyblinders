@@ -11,6 +11,136 @@
   --grayscale-0-white: rgba(255, 255, 255, 1);
 }
 
+.box {
+  position: relative;
+  width: 450px;
+  height: 342px;
+}
+
+.box .social-button {
+  position: fixed;
+  width: 450px;
+  height: 342px;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #9747ff;
+}
+
+.box .property-google {
+  height: 60px;
+  top: 20px;
+  position: absolute;
+  width: 410px;
+  left: 20px;
+  background-color: var(--theme-peaky-blindersn40);
+  border-radius: 8px;
+}
+
+.box .text-wrapper {
+  width: 234px;
+  left: 88px;
+  position: absolute;
+  top: 18px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--theme-peaky-blindersn0);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.4px;
+}
+
+.box .img {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 14px;
+  left: 20px;
+}
+
+.box .div {
+  height: 50px;
+  top: 199px;
+  position: absolute;
+  width: 410px;
+  left: 20px;
+  background-color: var(--theme-peaky-blindersn40);
+  border-radius: 8px;
+}
+
+.box .p {
+  position: absolute;
+  width: 327px;
+  top: 14px;
+  left: 57px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--theme-peaky-blindersn0);
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.6px;
+}
+
+.box .img-2 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 13px;
+  left: 16px;
+}
+
+.box .property-facebook {
+  height: 60px;
+  top: 93px;
+  position: absolute;
+  width: 410px;
+  left: 20px;
+  background-color: #1877f2;
+  border-radius: 8px;
+}
+
+.box .text-wrapper-2 {
+  width: 256px;
+  left: 77px;
+  position: absolute;
+  top: 18px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--theme-peaky-blindersn0);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.4px;
+}
+
+.box .property-facebook-2 {
+  height: 50px;
+  top: 272px;
+  position: absolute;
+  width: 410px;
+  left: 20px;
+  background-color: #1877f2;
+  border-radius: 8px;
+}
+
+.box .text-wrapper-3 {
+  position: absolute;
+  width: 323px;
+  top: 14px;
+  left: 59px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--theme-peaky-blindersn0);
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.6px;
+}
+
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 * {

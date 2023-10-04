@@ -37,12 +37,12 @@ user-scalable=no">
 "><p class="voc-ganhou-um-combo" style="
     position: relative;
     top: 40px;
+    font-family: 'Averia Serif Libre';
 ">Infelizmente a promoção já se encerrou!</p><p class="text-wrapper" style="
     position: relative;
     top: 40px;
     font-size: 15px;
     margin: 20px;
-    font-family: 'Averia Serif Libre';
 ">Tente novamente em novas oportunidades...</p><a class="PB-button" style="font-weight: 600;top: 50px;position: relative;border: none;margin: 0 auto;" type="submit" href="/"><p class="resgatar-combo" style="
     font-size: 15px;
 ">VOLTAR AO INÍCIO</p></a>
