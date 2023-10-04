@@ -42,6 +42,7 @@ user-scalable=no">
     top: 40px;
     font-size: 15px;
     margin: 20px;
+    font-family: 'Averia Serif Libre';
 ">Tente novamente em novas oportunidades...</p><a class="PB-button" style="font-weight: 600;top: 50px;position: relative;border: none;margin: 0 auto;" type="submit" href="/"><p class="resgatar-combo" style="
     font-size: 15px;
 ">VOLTAR AO INÍCIO</p></a>
