@@ -16,7 +16,7 @@ user-scalable=no">
     align-content: center;
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 1000px;
     margin: 0 auto;
 ">
         <img class="logo" src="img/logo-1.svg" style="
